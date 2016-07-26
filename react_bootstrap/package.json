@@ -1,0 +1,33 @@
+{
+  "name": "ethersignal",
+  "version": "0.0.1",
+  "description": "EtherSignal Web Interface.",
+  "license": "MIT",
+  "repository": "XXXADS TODO",
+  "main": "main.js",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "object-assign": "^4.1.0",
+    "react-dom": "^15.2.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2016": "^6.11.3",
+    "babel-preset-react": "^6.11.1",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1",
+    "flow-bin": "^0.29.0",
+    "react": "^15.2.1",
+    "redux-devtools": "^3.3.1",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "author": "Adam Scislowicz <adam@vulcanize.io>"
+}
